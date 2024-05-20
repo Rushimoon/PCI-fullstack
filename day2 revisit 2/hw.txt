@@ -1,0 +1,8 @@
+employee form-> profile photo , name , email,mobile,address
+make object using class
+store in local storage 
+
+
+make another page
+take data from local storage
+and display using dom 
