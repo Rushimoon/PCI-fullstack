@@ -1,0 +1,45 @@
+#employeform{
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#employeform h1{
+    /* border: 2px solid red; */
+    width: 350px;
+}
+#name{
+    height: 30px;
+    width: 70%;
+    margin: auto; 
+}
+#no{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 70%;
+    margin: auto; 
+}
+#add{
+    height: 30px;
+    width: 70%;
+    margin: auto; 
+}
+#mail{
+    height: 30px;
+    width: 70%;
+    margin: auto; 
+}
+#img{
+    height: 30px;
+    width: 70%;
+    margin: auto; 
+}
+#button{
+    height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
