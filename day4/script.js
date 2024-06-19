@@ -19,7 +19,7 @@ let sbt=document.getElementById("sbt-btn")
     sbt.addEventListener("click",getdata)
 
     
-
+  
 
 function getdata(){
     let fname=document.getElementById("first").value
