@@ -35,3 +35,28 @@ form.addEventListener("submit",prime)
     })
 
   }
+
+
+
+  function getid(){
+   let idinput=document.getElementById("idtochange").value
+   getDataFromId(idinput)
+  
+  }
+
+  async function getDataFromId(id){
+
+    let data=await fetch(`http://localhost:3000/employee/${id}`)
+    let actualdata=await data.json();
+    console.log(actualdata)
+
+  let updateForm=document.getElementById("updateform");
+
+  let name= updateForm.fullname.value=actualdata.name;
+  let mobile= updateForm.mob.value=actualdata.mobile
+  let add= updateForm.address.value=actualdata.add
+  let email= updateForm.mail.value=actualdata.email
+  let photo= updateForm.image.value=actualdata.photo
+  
+  }
+  

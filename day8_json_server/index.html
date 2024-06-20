@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h1>add the data</h1>
     <form id="employeform" action="">
 
         <h1>EMPLOYEE DETAILS</h1>
 
+        <input type="text"  name="fullname" id="name" placeholder="Enter name">
+        <input type="number" name="mob" id="no" placeholder="Enter mobile number">
+        <input type="text" name="address" id="add" placeholder="Enter address">
+        <input type="email" name="mail" id="mail" placeholder=" Enter email">
+        <input type="url" name="image" id="img" placeholder="Profile photo">
+        <input type="submit">
+    </form>
+
+    <h1>update the data</h1>
+
+    <label for="idupdate"> enter the id to be updated</label>
+    <input type="text" name="idupdate" id="idtochange">
+    <button onclick="getid()"> submit</button>
+    
+    <form id="updateform" action="">
+        
+        <h1>EMPLOYEE DETAILS</h1>
+       
         <input type="text"  name="fullname" id="name" placeholder="Enter name">
         <input type="number" name="mob" id="no" placeholder="Enter mobile number">
         <input type="text" name="address" id="add" placeholder="Enter address">
