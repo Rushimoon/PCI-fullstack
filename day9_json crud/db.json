@@ -33,17 +33,9 @@
   },
   "employee": [
     {
-      "id": "1",
-      "name": "dummy",
-      "mobile": "09158134927",
-      " add": "Savatri bai fule nagar jadu mahal road",
-      "email": "rushikeshmoon1998@gmail.com",
-      " photo": "https://i.pinimg.com/236x/26/e6/5a/26e65ae26c57c8660640ced6952d94e4.jpg"
-    },
-    {
       "id": "cbc8",
-      "name": "sakshi",
-      "mobile": "123213",
+      "name": "gudiya",
+      "mobile": "98978654321",
       "add": "pilibnadi",
       "email": "sk@bhagat.com",
       "photo": "https://images.indianexpress.com/2017/10/1103.jpg?w=350"
@@ -54,14 +46,6 @@
       "mobile": "1321312312312",
       "add": "ayubhagat@gmail.com",
       "email": "ayubha@kkr.com",
-      "photo": "https://i.pinimg.com/236x/26/e6/5a/26e65ae26c57c8660640ced6952d94e4.jpg"
-    },
-    {
-      "id": "ceae",
-      "name": "aditya",
-      "mobile": "4234234",
-      "add": "weqwe",
-      "email": "adi@gmail.com",
       "photo": "https://i.pinimg.com/236x/26/e6/5a/26e65ae26c57c8660640ced6952d94e4.jpg"
     }
   ]
